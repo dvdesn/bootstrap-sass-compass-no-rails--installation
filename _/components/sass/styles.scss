@@ -1,0 +1,23 @@
+// Import Bootstrap Compass integration
+@import "compass";
+
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+
+//Davide custom
+.sass-sample {
+	@include square(320px);
+	// @include border-radius(50%);
+	background:hsl(195, 100%, 80%);
+	padding:10% 2%;
+	margin: 20px auto;
+	color:#fff;
+}
